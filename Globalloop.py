@@ -1,7 +1,7 @@
 # function where a global variable is updated inside a loop.
 
 def global_loop():
-    for i in range(3):
+    for i in range(5):
         global x
         x += i
         print(i)
